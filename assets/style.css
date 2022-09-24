@@ -68,7 +68,7 @@ a {
     color: #353839;
 }
 
-.aboutme {
+#aboutme {
     height: 200px;
     display: block;
     margin: 15px;
@@ -76,7 +76,7 @@ a {
     border-color: #353839;
 }
 
-.aboutme h2 {
+#aboutme h2 {
     text-align: center;
     text-decoration: underline;
     color: #353839;
@@ -103,10 +103,6 @@ a {
 #worktab div{
 flex: 0 0 60%;
 
-align-items: flex-end;
-justify-content: flex-end;
-
-
 }
 
 #portbox {
@@ -115,40 +111,19 @@ justify-content: flex-end;
     min-height: 150px;
     max-height: 150px;
     margin-bottom: 10px;
+    margin-right: 20px;
     padding: 10px;
     justify-content: flex-end;
+    align-items: flex-end;
 
 }
 
-
-
-.mywork {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-evenly;
-
-
+.studyguide {
+    background-image: url(./images/codepic.jpg);
+    background-size: cover;
 }
 
-.mywork div {
-    display: block;
-    background-color: #353839;
-    width: 200px;
-}
 
-.mywork div h2 {
-    background-color: #353839;
-    color: #738276;
-    text-align: center;
-}
-
-#workdisplay {
-    border: 4px #353839;
-    min-height: 150px;
-    max-height: 150px;
-
-
-}
 
 .footer {
 
