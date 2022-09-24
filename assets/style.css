@@ -90,7 +90,7 @@ a {
    
 }
 
-#worktab h3 {
+#worktab h2 {
     
     flex: 0 0 20%;
     border-right: 5px #353839 solid;
@@ -120,6 +120,11 @@ flex: 0 0 60%;
 
 .studyguide {
     background-image: url(./images/codepic.jpg);
+    background-size: cover;
+}
+
+.firstdebug {
+    background-image: url(./images/Horiseonpic.png);
     background-size: cover;
 }
 
