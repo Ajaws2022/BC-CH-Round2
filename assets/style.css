@@ -22,9 +22,17 @@
     color:#8f9779 ;
 }
 
+
+
 .header h1::after {
-    background: url();
-    max-width: 15px;
+    background-image: url(https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fentries%2Ficons%2Fmobile%2F000%2F013%2F564%2Fdoge.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 75px; 
+    height: 50px;
+    content:"";
+    
+    
 }
 
 
@@ -95,15 +103,20 @@ a {
 #worktab div{
 flex: 0 0 60%;
 
+align-items: flex-end;
+justify-content: flex-end;
+
 
 }
 
 #portbox {
+    display: flex;
     border: 5px #353839 solid;
     min-height: 150px;
     max-height: 150px;
     margin-bottom: 10px;
     padding: 10px;
+    justify-content: flex-end;
 
 }
 
