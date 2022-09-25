@@ -1,5 +1,7 @@
 * {
     background-color: #738276;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header {
@@ -11,7 +13,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
      'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #353839;
-    color: #8f9779;
+    color: #738276;
 }
 
 .header h1 {
@@ -45,12 +47,13 @@
 }
 
 .header ul {
-   
+   height: 70px;
     display: flex;
-    flex: 0 0 20%;
+    flex: 0 0 35%;
     justify-content: center;
     align-items: center;
     padding: 0%;
+    background-color: #8f9779 ;
     
     
 }
@@ -58,13 +61,13 @@
 .header ul li {
     display: inline-block;
     margin: 10px;
-    background-color: #353839;
+    
     text-align: center;
    
 }
 
-a {
-    
+ a {
+    background-color: #8f9779;
     color: #353839;
 }
 
@@ -74,20 +77,23 @@ a {
     margin: 15px;
     border: solid 10px;
     border-color: #353839;
+    background-image: linear-gradient(to top, #8f9779,#738276);
 }
 
 #aboutme h2 {
     text-align: center;
     text-decoration: underline;
     color: #353839;
+    background-color: transparent;
+    margin-right: 25px;
+    
 }
 
 #worktab {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    border-right: 4px #353839;
-   
+    margin-right: 15px;
+    
+    
 }
 
 #worktab h2 {
@@ -101,9 +107,25 @@ a {
 }
 
 #worktab div{
-flex: 0 0 60%;
+flex: 0 0 75%;
+margin: 15px;
+
+flex-direction: row-reverse;
 
 }
+
+
+
+#worktab h3 {
+    display: inline-block;
+    background-color: #353839;
+    color: #738276;
+    margin: 0;
+    padding: 4px;
+    font-size: 85%;
+}
+
+
 
 #portbox {
     display: flex;
@@ -112,20 +134,23 @@ flex: 0 0 60%;
     max-height: 150px;
     margin-bottom: 10px;
     margin-right: 20px;
-    padding: 10px;
+    margin-left: 50px;
     justify-content: flex-end;
     align-items: flex-end;
-
+    
 }
 
 .studyguide {
+    flex-basis: 200%;
     background-image: url(./images/codepic.jpg);
     background-size: cover;
+    
 }
 
 .firstdebug {
     background-image: url(./images/Horiseonpic.png);
     background-size: cover;
+    
 }
 
 
@@ -143,4 +168,19 @@ flex: 0 0 60%;
     display: block;
     background-color: #353839;
     width: 100%;
+}
+
+.footer ul {
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #8f9779 ;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 10px;
+    
+    text-align: center;
 }
