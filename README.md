@@ -1,0 +1,3 @@
+# Bootcamp Challenge 2
+
+For this challenge we were tasked with building our own portfolio site with fucntioning page links, adaptive css for screen size, and images containing links to our work and other resources. At the moment my site is incomplete as I haven't made the css responsive to size. I spent too much time adding extras to the visual appearance and making my contact info link to the proper contact applications when selected. The page is completely functional as is, however, I will work over the following weeks to sharpen it up and make sure all criteria are met.
